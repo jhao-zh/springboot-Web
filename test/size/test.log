@@ -1,0 +1,5 @@
+2020:12:13 16:40:32.317 [main] ERROR  -this is error
+2020:12:13 16:40:32.322 [main] DEBUG  -this is debug
+2020:12:13 16:40:32.322 [main] INFO  -this is info
+2020:12:13 16:40:32.323 [main] WARN  -this is warn
+2020:12:13 16:40:32.324 [main] FATAL  -this is fatal

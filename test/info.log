@@ -1,0 +1,1 @@
+16:40:32.322 INFO  ${sd:type} com.springboot.web.log4j2.Log4jTest 12 main - this is info
