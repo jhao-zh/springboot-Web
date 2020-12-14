@@ -9,7 +9,7 @@
 
 
 	<Loggers>
-		<Root level="error">
+		<Root level="info">
 			<appender-ref ref="Console" />
 		</Root>
 	</Loggers>
