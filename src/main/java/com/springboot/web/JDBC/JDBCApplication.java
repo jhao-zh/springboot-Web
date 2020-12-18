@@ -44,10 +44,10 @@ public class JDBCApplication implements CommandLineRunner {
 	
 	public void showConnection() throws SQLException {
 		//打印当前的DataSource的实现类
-		log.error("dataSource{}", dataSource.getClass().getName());
+		log.error("dataSource: {} ", dataSource.getClass().getName());
 		//创建连接池连接
 		Connection connection = dataSource.getConnection();
 		//打印该连接的基本信息
-		log.error("connection:{}", connection.toString());
+		log.error("connection: {}", connection.toString());
 	}
 }
